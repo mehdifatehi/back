@@ -1,7 +1,8 @@
 package com.back.ui;
 
 
-import javax.annotation.ManagedBean;
+
+import javax.faces.bean.ManagedBean;
 import javax.inject.Named;
 
 import org.springframework.context.annotation.Scope;
