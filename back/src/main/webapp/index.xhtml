@@ -9,11 +9,14 @@
 </head>
 <body>
 
+<ui:composition template="template.xhtml">
+<ui:define name="content">
 enter search key
 <h:form>
 <h:inputText value="#{applicationInfo.name}"></h:inputText>
 <h:commandButton value="Submit" action="search"></h:commandButton>
 </h:form>
-
+</ui:define>
+</ui:composition>
 </body>
 </html>
