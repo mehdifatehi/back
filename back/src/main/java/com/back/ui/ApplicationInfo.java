@@ -14,6 +14,15 @@ public class ApplicationInfo {
 
 	
 	private String text = "hello Mehdi dzdezde";
+	private String name;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 
 	public String getText() {
 		return text;
